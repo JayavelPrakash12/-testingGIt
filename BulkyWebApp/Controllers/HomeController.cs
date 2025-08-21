@@ -10,7 +10,8 @@ namespace BulkyWebApp.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            _logger = logger; 
+            // this is code for new day
         }
 
         public IActionResult Index()
